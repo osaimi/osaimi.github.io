@@ -6,10 +6,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abdullah Alosaimi</title>
     <meta name="description" content="Patient about designing and building software.">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" media="screen and (max-width: 768px)" href="styles/mobile.css">
 </head>
 
 <body>
-    test
+    <header class="hero">
+
+        <nav id="navbar" class="navbar">
+            <div class="container">
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Experience</a></li>
+                    <li><a href="">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <img src="images/covid.jpg" alt="my image" />
+
+        <h1>Abdullah Alosaimi</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequuntur repellendus ipsum mollitia, quia rerum
+            cupiditate odit ratione labore tempora dolorum tempore aut asperiores soluta numquam, ea eveniet
+            praesentium, sit natus.</p>
+
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About me</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius quaerat quia, voluptates accusamus
+                exercitationem aliquam et architecto ut sed esse amet dolorum suscipit adipisci praesentium ad
+                temporibus natus aliquid aut?</p>
+        </section>
+
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <p>Zain</p>
+        </section>
+
+
+        <section id="contact">
+            <div class="form-wrap">
+                <h2>Contact Me</h2>
+                <form action="" method="post">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="10"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn">Submit</button>
+            </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="social">
+            <a href="https://github.com/" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+            <a href="https://twitter.com/" target="_blank">Twitter</a>
+        </div>
+        <div>Copyright &copy; 2020 Abdullah Alosaimi. All rights reserved</div>
+    </footer>
+    <script src="scripts/main.js"></script>
 </body>
 
 </html>

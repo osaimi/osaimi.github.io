@@ -1,0 +1,133 @@
+:root {
+    --background-color: #1c1c1c;
+    --text-primary: #fff;
+    --secondary-color: #333;
+    --border-color: red;
+    --link-color: #2997ff;
+    --btn-color: #678fff;
+}
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Main Styling */
+html,
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+    background-color: var(--background-color);
+    color: var(--text-primary);
+}
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    padding-bottom: 20px;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Utility Classes */
+.container {
+    margin: auto;
+    max-width: 960px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+/* Navbar */
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+
+#navbar ul li {
+    float: left;
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+}
+
+#navbar ul li a:hover {
+    text-decoration: underline;
+}
+
+header img {
+    border-radius: 50%;
+    max-width: 400px;
+}
+
+
+.form-wrap {
+    max-width: 400px;
+    margin: 10px auto;
+    padding: 15px 25px;
+}
+
+.form-wrap h2 {
+    text-align: center;
+}
+
+.form-wrap .form-group {
+    margin-top: 15px;
+}
+
+.form-wrap .form-group label {
+    display: block;
+}
+
+.form-wrap .form-group input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #333333;
+    border-color: #333333;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    outline: none;
+    color: #fff;
+}
+
+.form-wrap .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    resize: none;
+    border: none;
+    background-color: #333333;
+    border-color: #333333;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.5);
+    outline: none;
+    color: #fff;
+}
+
+.form-wrap button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: var(--btn-color);
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+footer {
+    color: var(--secondary-color);
+    font-size: 12px;
+    text-align: center;
+}
